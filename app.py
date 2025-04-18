@@ -18,11 +18,11 @@ def predict():
 
     user_input_preprocessed = np.array([[rooms, area]])
 
-    # Make a prediction
+    # Make a predictiongit add
     prediction = model.predict(user_input_preprocessed)
     output = {"Rental Prediction using Built Model V2": float(prediction[0])}
 
     return output
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=2000, debug=True)
+    app.run(host='0.0.0.0', port=3000, debug=True)
