@@ -17,7 +17,7 @@ COPY app.py ./app.py
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Expose port 2000 for the applicationgit ls-remote -h https://github.com/Navstati/mlopsproject.git
-EXPOSE 2000
+EXPOSE 2100
 
 # Define the command to run the application
 CMD [ "python", "app.py" ]
